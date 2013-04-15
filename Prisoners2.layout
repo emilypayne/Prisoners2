@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="main.cpp" open="1" top="1" tabpos="0">
+		<Cursor position="3987" topLine="2018" />
+	</File>
+	<File name="strat_allc.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="strat_allc.h" open="0" top="0" tabpos="2">
+		<Cursor position="69" topLine="0" />
+	</File>
+	<File name="strat_alld.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="strat_alld.h" open="0" top="0" tabpos="4">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="strat_tft.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="strat_tft.h" open="0" top="0" tabpos="3">
+		<Cursor position="66" topLine="0" />
+	</File>
+	<File name="strat_zd1c10.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="875" topLine="18" />
+	</File>
+	<File name="strat_zd1c10.h" open="0" top="0" tabpos="0">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="strat_zd2c18.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1119" topLine="30" />
+	</File>
+	<File name="strat_zd2c18.h" open="0" top="0" tabpos="0">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="strat_zd4c34.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1119" topLine="30" />
+	</File>
+	<File name="strat_zd4c34.h" open="0" top="0" tabpos="0">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="strat_zdR1c0.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="878" topLine="12" />
+	</File>
+	<File name="strat_zdR1c0.h" open="0" top="0" tabpos="0">
+		<Cursor position="75" topLine="0" />
+	</File>
+	<File name="strat_zdR2c0.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="strat_zdR2c0.h" open="0" top="0" tabpos="0">
+		<Cursor position="22" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

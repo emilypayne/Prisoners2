@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Prisoners2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin\Release\Prisoners2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="strat_allc.cpp" />
+		<Unit filename="strat_allc.h" />
+		<Unit filename="strat_alld.cpp" />
+		<Unit filename="strat_alld.h" />
+		<Unit filename="strat_tft.cpp" />
+		<Unit filename="strat_tft.h" />
+		<Unit filename="strat_zd1R10.cpp" />
+		<Unit filename="strat_zd1R10.h" />
+		<Unit filename="strat_zd1R5.cpp" />
+		<Unit filename="strat_zd1R5.h" />
+		<Unit filename="strat_zd1c10.cpp" />
+		<Unit filename="strat_zd1c10.h" />
+		<Unit filename="strat_zd2P9.cpp" />
+		<Unit filename="strat_zd2P9.h" />
+		<Unit filename="strat_zd2R14.cpp" />
+		<Unit filename="strat_zd2R14.h" />
+		<Unit filename="strat_zd2R7.cpp" />
+		<Unit filename="strat_zd2R7.h" />
+		<Unit filename="strat_zd2c18.cpp" />
+		<Unit filename="strat_zd2c18.h" />
+		<Unit filename="strat_zd4P17.cpp" />
+		<Unit filename="strat_zd4P17.h" />
+		<Unit filename="strat_zd4c34.cpp" />
+		<Unit filename="strat_zd4c34.h" />
+		<Unit filename="strat_zdR1c0.cpp" />
+		<Unit filename="strat_zdR1c0.h" />
+		<Unit filename="strat_zdR2c0.cpp" />
+		<Unit filename="strat_zdR2c0.h" />
+		<Unit filename="strat_zdSC.cpp" />
+		<Unit filename="strat_zdSC.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
