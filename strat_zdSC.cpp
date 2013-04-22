@@ -17,11 +17,11 @@ bool::strat_zdSC::play(bool other_p, bool p, int round)
         }
         else if((other_p == 1) && (p == 0))
         {
-            return true;
+            return false;
         }
         else if((other_p == 0) && (p == 1))
         {
-            return false;
+            return true;
         }
         else if((other_p == 0) && (p == 0))
         {

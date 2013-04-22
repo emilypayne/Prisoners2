@@ -15,7 +15,7 @@ bool::strat_zd1c10::play(bool other_p, bool p, int round)
         {
             return true;
         }
-        else if((other_p == 1) && (p == 0))
+        else if((other_p == 0) && (p == 1))
         {
             int x = rand() % 100;
             if(x <= 90)
@@ -24,7 +24,7 @@ bool::strat_zd1c10::play(bool other_p, bool p, int round)
             }
             else return false;
         }
-        else if((other_p == 0) && (p == 1))
+        else if((other_p == 1) && (p == 0))
         {
             int x = rand() % 100;
             if(x <= 40)

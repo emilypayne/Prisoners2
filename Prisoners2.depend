@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1365431223 source:d:\prisoner's\prisoners2\main.cpp
+1366010011 source:d:\prisoner's\prisoners2\main.cpp
 	<iostream>
 	<cmath>
 	<vector>
@@ -116,7 +116,7 @@
 
 1365155079 d:\prisoner's\prisoners2\strat_zdr1d0.h
 
-1365155759 source:d:\prisoner's\prisoners2\strat_zdr2c0.cpp
+1366623491 source:d:\prisoner's\prisoners2\strat_zdr2c0.cpp
 	"strat_zdR2c0.h"
 	<cmath>
 	<ctime>
@@ -190,7 +190,7 @@
 	<ctime>
 	<cstdlib>
 
-1365253338 source:d:\prisoner's\prisoners2\strat_zdsc.cpp
+1366622777 source:d:\prisoner's\prisoners2\strat_zdsc.cpp
 	"strat_zdSC.h"
 	<cmath>
 	<ctime>

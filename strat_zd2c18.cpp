@@ -20,7 +20,7 @@ bool::strat_zd2c18::play(bool other_p, bool p, int round)
             }
             else return false;
         }
-        else if((other_p == 1) && (p == 0))
+        else if((other_p == 0) && (p == 1))
         {
             int x = rand() % 100;
             if(x <= 50)
@@ -35,7 +35,7 @@ bool::strat_zd2c18::play(bool other_p, bool p, int round)
                 }
             }
         }
-        else if((other_p == 0) && (p == 1))
+        else if((other_p == 1) && (p == 0))
         {
             int x = rand() % 100;
             if(x <= 33)
