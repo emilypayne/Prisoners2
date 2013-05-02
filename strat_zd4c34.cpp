@@ -37,8 +37,8 @@ bool::strat_zd4c34::play(bool other_p, bool p, int round)
         }
         else if((other_p == 1) && (p == 0))
         {
-            int x = rand() % 100;
-            if(x <= 23)
+            int x = rand() % 1000;
+            if(x <= 235)
             {
                 return true;
             }

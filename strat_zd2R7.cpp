@@ -13,7 +13,7 @@ bool::strat_zd2R7::play(bool other_p, bool p, int round)
     {
         if ((other_p == 1) && (p == 1))
         {
-            return false;
+            return true;
         }
         else if((other_p == 0) && (p == 1))
         {

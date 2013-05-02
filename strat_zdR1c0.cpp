@@ -13,7 +13,7 @@ bool::strat_zdR1c0::play(bool other_p, bool p, int round)
     {
         if ((other_p == 1) && (p == 1))
         {
-            return false;
+            return true;
         }
         else if((other_p == 0) && (p == 1))
         {
@@ -26,8 +26,8 @@ bool::strat_zdR1c0::play(bool other_p, bool p, int round)
         }
         else if((other_p == 1) && (p == 0))
         {
-            int x = rand() % 1000;
-            if(x <= 2)
+            int x = rand() % 600;
+            if(x <= 1)
             {
                 return true;
             }

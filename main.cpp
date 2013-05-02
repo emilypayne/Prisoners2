@@ -22,6 +22,7 @@ using namespace std;
 
 int main()
 {
+    // These are all entires that will be used to sum each section
     int allc0=0, allc=0, countallc0=0, countallc=0, allc1=0, alld1=0, countallc1=0, countalld1=0, allc2=0, tft2=0, countallc2=0, counttft2=0;
     int allc3=0, tftd2=0, countallc3=0, counttftd2=0, allc4=0, zd1c10=0, countallc4=0, countzd1c10=0, allc5=0, zd1d10=0, countallc5=0, countzd1d10=0;
     int allc6=0, zd2c=0, countallc6=0, countzd2c=0, allc7=0, zd2d=0, countallc7=0, countzd2d=0, allc8=0, zd4c=0, countallc8=0, countzd4c=0;
@@ -94,7 +95,7 @@ int main()
 
     bool play1, play2, play3, play4, play5, play6, play7, play8, play9, play10, play11, play12, play13, play14, play15;
     bool play1_temp, play2_temp, play3_temp, play4_temp, play5_temp, play6_temp, play7_temp, play8_temp, play9_temp, play10_temp, play11_temp;
-    bool play12_temp, play13_temp, play14_temp, play15_temp;
+    bool play12_temp, play13_temp, play14_temp, play15_temp; // these all refer to the header files for the strategies
     strat_allc player_1;
     strat_alld player_2;
     strat_tft player_3;
@@ -113,7 +114,7 @@ int main()
 
 cout << "ROUND 1" << endl;
 
-    cout << "Game 1  " << ' ';
+    cout << "Game 1  " << ' '; //ALLC vs. ALLC
     for(int i = 0; i<100; i++)
     {
         play1_temp = player_1.play();
@@ -145,7 +146,7 @@ cout << "ROUND 1" << endl;
     }
     cout << "ALLC = " << countallc0 << ' ';
     cout << "  ALLC = " << countallc << endl;
-cout << "Game 2  " << ' ';
+cout << "Game 2  " << ' '; //ALLC Vs. ALLD
     for(int i = 0; i<100; i++)
     {
         play1_temp = player_1.play();
@@ -169,11 +170,11 @@ cout << "Game 2  " << ' ';
     }
     cout << "ALLC = " << countallc1 << ' ';
     cout << "  ALLD = " << countalld1 << endl;
-    cout << "Game 3  " << ' ';
+    cout << "Game 3  " << ' '; // ALLC Vs. TFT
     for(int i = 0; i<100; i++)
     {
         play1_temp = player_1.play();
-        play3_temp = player_3.play(play1,i);
+        play3_temp = player_3.play(play1,i); // TFT strategy depends on other player's previous outcome
         play1 = play1_temp;
         play3 = play3_temp;
         if((play1 == true) && (play3 == true))
@@ -202,11 +203,11 @@ cout << "Game 2  " << ' ';
     cout << "ALLC = " << countallc2 << ' ';
     cout << "  TFTC = " << counttft2 << endl;
 
-      cout << "Game 4  " << ' ';
+      cout << "Game 4  " << ' '; // ALLC Vs. ZD1C10
     for(int i = 0; i<100; i++)
     {
         play1_temp = player_1.play();
-        play4_temp = player_4.play(play1,play4,i);
+        play4_temp = player_4.play(play1,play4,i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
         play1 = play1_temp;
         play4 = play4_temp;
         if((play1 == true) && (play4 == true))
@@ -235,11 +236,11 @@ cout << "Game 2  " << ' ';
     cout << "ALLC = " << countallc3 << ' ';
     cout << "  ZD1C10 = " << counttftd2 << endl;
 
-            cout << "Game 5  " << ' ';
+            cout << "Game 5  " << ' '; // ALLC Vs. ZD2C18
     for(int i = 0; i<100; i++)
     {
         play1_temp = player_1.play();
-        play5_temp = player_5.play(play1, play5,i);
+        play5_temp = player_5.play(play1, play5,i); // ZD2C18 strategy depends on other player's previous outcome along with their own previous choice
         play1 = play1_temp;
         play5 = play5_temp;
         if((play1 == true) && (play5 == true))

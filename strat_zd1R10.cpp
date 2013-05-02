@@ -13,12 +13,7 @@ bool::strat_zd1R10::play(bool other_p, bool p, int round)
     {
         if ((other_p == 1) && (p == 1))
         {
-            int x = rand() % 1000;
-            if(x <= 778)
-            {
-                return true;
-            }
-            else return false;
+            return true;
         }
         else if((other_p == 0) && (p == 1))
         {
