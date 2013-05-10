@@ -1490,11 +1490,11 @@ cout << "Game 13  " << ' '; // TFT Vs. ZD2R7
     cout << "  ZD2R7 = " << countzd2R711 << endl;
 
 cout << "ROUND 4" << endl;
-        cout << "Game 1  " << ' ';
+        cout << "Game 1  " << ' '; // ZD1C10 Vs. ZD1C10
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play4, play4, i);
-        play4_temp = player_4.play(play4, play4, i);
+        play4_temp = player_4.play(play4, play4, i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play4_temp = player_4.play(play4, play4, i);// ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play4 = play4_temp;
         if((play4 == true) && (play4 == true))
@@ -1523,11 +1523,11 @@ cout << "ROUND 4" << endl;
     cout << "ZD1C10 = " << counttftd3 << ' ';
     cout << "  ZD1C10 = " << counttftd111 << endl;
 
-    cout << "Game 2  " << ' ';
+    cout << "Game 2  " << ' '; // ZD1C10 Vs. ZD2C18
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play5, play4, i);
-        play5_temp = player_5.play(play4, play5,i);
+        play4_temp = player_4.play(play5, play4, i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play5_temp = player_5.play(play4, play5,i);// ZD2C18 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play5 = play5_temp;
         if((play4 == true) && (play5 == true))
@@ -1556,11 +1556,11 @@ cout << "ROUND 4" << endl;
     cout << "ZD1C10 = " << counttftd4 << ' ';
     cout << "  ZD2C18 = " << countzd1c10111 << endl;
 
-    cout << "Game 3  " << ' ';
+    cout << "Game 3  " << ' '; // ZD1C10 Vs. ZD4C34
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play6,play4,i);
-        play6_temp = player_6.play(play4, play6,i);
+        play4_temp = player_4.play(play6,play4,i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play6_temp = player_6.play(play4, play6,i);// ZD4C34 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play6 = play6_temp;
         if((play4 == true) && (play6 == true))
@@ -1589,11 +1589,11 @@ cout << "ROUND 4" << endl;
     cout << "ZD1C10 = " << counttftd5 << ' ';
     cout << "  ZD4C34 = " << countzd1d10111 << endl;
 
-            cout << "Game 4  " << ' ';
+            cout << "Game 4  " << ' '; // ZD1C10 Vs. ZDR1C0
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play7,play4, i);
-        play7_temp = player_7.play(play4, play7,i);
+        play4_temp = player_4.play(play7,play4, i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play7_temp = player_7.play(play4, play7,i);// ZDR1C0 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play7 = play7_temp;
         if((play4 == true) && (play7 == true))
@@ -1622,11 +1622,11 @@ cout << "ROUND 4" << endl;
     cout << "ZD1C10 = " << counttftd6 << ' ';
     cout << "  ZDR1C0 = " << countzd2c111 << endl;
 
-            cout << "Game 5  " << ' ';
+            cout << "Game 5  " << ' '; // ZD1C10 Vs. ZDR2C0
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play8,play4,i);
-        play8_temp = player_8.play(play4, play8,i);
+        play4_temp = player_4.play(play8,play4,i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play8_temp = player_8.play(play4, play8,i);// ZDR2C0 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play8 = play8_temp;
         if((play4 == true) && (play8 == true))
@@ -1655,11 +1655,11 @@ cout << "ROUND 4" << endl;
     cout << "ZD1C10 = " << counttftd7 << ' ';
     cout << "  ZDR2C0 = " << countzd2d111 << endl;
 
-cout << "Game 6  " << ' ';
+cout << "Game 6  " << ' '; // ZD1C10 Vs. ZDSC
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play9, play4, i);
-        play9_temp = player_9.play(play4, play9,i);
+        play4_temp = player_4.play(play9, play4, i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play9_temp = player_9.play(play4, play9,i);// ZDSC strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play9 = play9_temp;
         if((play4 == true) && (play9 == true))
@@ -1688,11 +1688,11 @@ cout << "Game 6  " << ' ';
     cout << "ZD1C10 = " << counttftd8 << ' ';
     cout << "  ZDSC = " << countzd4c111 << endl;
 
-cout << "Game 7  " << ' ';
+cout << "Game 7  " << ' '; // ZD1C10 Vs. ZD2P9
     for(int i = 0; i<100; i++)
     {
-        play4_temp = player_4.play(play10, play4, i);
-        play10_temp = player_10.play(play4, play10,i);
+        play4_temp = player_4.play(play10, play4, i); // ZD1C10 strategy depends on other player's previous outcome along with their own previous choice
+        play10_temp = player_10.play(play4, play10,i);// ZD2P9 strategy depends on other player's previous outcome along with their own previous choice
         play4 = play4_temp;
         play10 = play10_temp;
         if((play4 == true) && (play10 == true))
